@@ -47,7 +47,7 @@
     ]
   },
   "dependencies": {
-    "@anthropic-ai/claude-code": "latest"
+    "@anthropic-ai/claude-agent-sdk": "latest"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
