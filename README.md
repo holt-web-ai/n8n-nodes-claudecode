@@ -40,10 +40,14 @@ Transform support tickets into code fixes automatically:
 ## ⚡ Quick Start
 
 ### Prerequisites
-1. **Claude Code CLI** (required on your n8n server):
+1. **Claude Code** (required on your n8n server):
    ```bash
-   npm install -g @anthropic-ai/claude-code
-   claude  # Authenticate (requires Claude Pro/Team subscription)
+   # Install Claude Code CLI
+   curl -fsSL https://claude.ai/install.sh | bash
+   # Or on Windows: winget install Anthropic.ClaudeCode
+   
+   # Authenticate (requires API key or Claude Pro/Team subscription)
+   claude
    ```
 
 ### Install in n8n

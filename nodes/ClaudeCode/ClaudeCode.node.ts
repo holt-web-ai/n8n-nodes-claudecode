@@ -5,7 +5,7 @@ import type {
 	INodeTypeDescription,
 } from 'n8n-workflow';
 import { NodeConnectionType, NodeOperationError } from 'n8n-workflow';
-import { query, type SDKMessage } from '@anthropic-ai/claude-code';
+import { query, type SDKMessage } from '@anthropic-ai/claude-agent-sdk';
 
 export class ClaudeCode implements INodeType {
 	description: INodeTypeDescription = {
