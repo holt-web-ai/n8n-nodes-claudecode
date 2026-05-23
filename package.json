@@ -1,7 +1,7 @@
 {
   "name": "@holtweb/n8n-nodes-claudecode",
-  "version": "0.2.1",
-  "description": "n8n node for Claude Code SDK integration with MCP support",
+  "version": "0.3.0",
+  "description": "n8n node for Claude Agent SDK integration with MCP support",
   "keywords": [
     "n8n-community-node-package",
     "n8n",
@@ -47,7 +47,7 @@
     ]
   },
   "dependencies": {
-    "@anthropic-ai/claude-code": "latest"
+    "@anthropic-ai/claude-agent-sdk": "latest"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
